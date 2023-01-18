@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bot's resopnse
 
-  const resopnse = await fetch('http://localhost:8000', {
+  const resopnse = await fetch('https://codex-kfnu.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
