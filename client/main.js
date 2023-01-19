@@ -27,7 +27,7 @@ function onSubmit(e) {
 
       console.log("sizee==>",imageSize);
 
-      const response = await fetch('https://imagegenerator-f5j5.onrender.com', {
+      const response = await fetch('https://imagegenerator-f5j5.onrender.com/message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
